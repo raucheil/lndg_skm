@@ -1,0 +1,57 @@
+<!-- Start the individual post -->
+<div id="item" ng-repeat="item in items | filter: lang | filter: id">
+
+<!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    
+    <!--<header class="intro-header" style="background-image: url('{{ item.imgpath }}')">-->
+    <header class="intro-header" ng-repeat="lang in langs | filter: {lang: lang}">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+                <div class="col-lg-12">
+                    <div class="post-heading">
+                        <h1>{{ item.title }}</h1>
+                        <b>{{lang.itemCode}} : {{ item.id }}</b>
+                        <!--<h2 class="subheading">Look no further</h2>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+                <div class="col-lg-12">
+                    <p ng-bind-html="item.description"></p>
+                </div>
+            </div>
+            <div class="row">
+                    <!--<div id="gallery" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+                    <div id="gallery" class="col-lg-12">
+                        <!--<h3>Image Gallery</h3>-->
+                        <div ng-repeat="image in images | filter: id" class="image-list">
+                            <!--<img class="img-responsive col-lg-5" ng-repeat="img in item.images" src="{{img.thumbnail}}" ng-click=""/>-->
+                            <img class="img-responsive col-lg-5" ng-repeat="img in image.images" src="{{img.thumbnails}}" ng-click=""/>
+                       </div>
+                    </div>
+            </div>
+        </div>
+    </article>
+
+    <br>
+
+    <footer class="container contact">
+        <div class="row">
+            <div class="col-lg-12" ng-repeat="lang in langs | filter: {lang: lang}">
+                <section ng-bind-html="lang.contatti"></section>                
+            </div>
+        </div>
+    </footer>
+
+</div>  

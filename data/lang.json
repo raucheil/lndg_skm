@@ -1,0 +1,65 @@
+[
+  {
+    "lang": "it",
+    "title": "San Valentino",
+    "sub_title":"Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Cerca un Prodotto",
+    "readMore":"Scopri di più",
+    "itemCode":"codice prodotto"
+  },
+  {
+    "lang": "en",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  },
+  {
+    "lang": "es",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  },
+  {
+    "lang": "de",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  },
+  {
+    "lang": "fr",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  },
+  {
+    "lang": "ru",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  },
+  {
+    "lang": "pt",
+    "title": "San Valentine",
+    "sub_title":"Party S. valentine",
+    "contatti": "<b>Contattaci</b><br/>Per maggiori informazioni, materiale POP riguardante i prodotti, contattate la persona di riferimento",
+    "search":"Find a Product",
+    "readMore":"Read More",
+    "itemCode":"item code"
+  }
+]

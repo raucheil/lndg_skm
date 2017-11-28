@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pretotyping Landing Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- Fontello -->
+    <!-- <link href="css/fontello.css" rel="stylesheet"> -->
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,700,800" rel="stylesheet">
+
+</head>
+
+<body ng-app="pretotypingApp">
+
+    <!-- Navigation -->
+    <div class="container-fluid">
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="row">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div  ng-controller="LangCtrl" class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu 
+                </button>
+                <a class="navbar-brand" ng-href="#!/{{$routeParams.lang}}">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <img class="logo_img" src="img/logo_white.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    </div>
+   <div ng-view ></div>
+
+    <!-- Footer -->
+    <footer>
+    		<section>
+			<ul class="list-inline text-center">
+                        <li>
+                            <a href="//twitter.com/Silikomart1?original_referer=http%3A%2F%2Fwww.silikomart.org%2Fprofessional%2F&profile_id=459395909&tw_i=509016784629166080&tw_p=embeddedtimeline&tw_w=357035635359485952" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//www.facebook.com/silikomartprofessional/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//www.youtube.com/user/SilikomartProf?feature=sub_widget_1" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//www.instagram.com/silikomartprofessional/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+		</section>
+
+    <!-- Breaks to provide space in the footer -->
+    <br />  
+    <br />
+    <!--<br />  
+    <br />    -->
+
+    <!-- Footer bottom with social icons -->
+	<div class="footnote text-center">
+        <copyright>
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                <small>
+                SILIKOMART S.R.L, Via Tagliamento 78, 30030 Pianiga (VENEZIA), Italy 
+                Capitale sociale Euro 30.000,00 i.v. 
+                Codice Fiscale, P.IVA e numero di iscrizione presso il Registro delle Imprese di Venezia Rovigo Delta Lagunare n. 03712840283, R.E.A VE-310642 
+                Società soggetta all'attività di direzione e coordinamento di DDA S.r.l. società con unico socio 
+                © 2016 Silikomart - tutti i diritti riservati - all rights reserved
+                </small>
+                </div>
+            </div>
+        </div>
+        </copyright>
+
+	</div>
+
+</footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+    <!-- AngularJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.5/angular-sanitize.min.js"></script>
+    
+    <!-- AngularJS Project Files -->
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+
+
+
+</body>
+
+</html>
